@@ -1,0 +1,39 @@
+.top-container{
+    background-color: #C4DFDF;
+    
+    height: 200px;
+    width:200px;
+    
+}
+body{
+    margin: 0px;
+}
+h1{
+    margin-top: 0px;
+}
+.middle-container{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width:200px;
+    position: relative;
+    
+}
+.bottom{
+    background-color: blue;
+    height: 200px;
+    width:200px;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    /* right: 200px; */
+}
+.extra{
+    background-color: yellow;
+    height: 200px;
+    width:200px;
+    position:relative;
+    bottom:400px;
+    left:400px
+    
+}
