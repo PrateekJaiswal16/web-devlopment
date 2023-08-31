@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <div>
+        <div class="logo">
+           <h1>MyTravel.com</h1> 
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="active">Home</li>
+                <li><a href="about.htm">About Us</a></li>
+                <li><a href="for.htm">Book</a></li>
+                <li><a href="contact.htm">Contact Us</a></li>
+            </ul>
+        <div>
+        <div class="js"><h1 style="text-align: center;" id="element"></h1></div>
+        <div class=trips ">
+            <h2 style="font-family: 'Times New Roman', Times, serif;text-align: center;">Our Available Trips</h2>
+            <div class=trip>
+                <h3>1-Paris</h3>
+                <p>best place for love birds</p>
+                <p>Price- $20k</p>
+
+            </div>
+            <div class="trip">
+                <h3>2-Switzerland</h3>
+                <p>It has Beautiful Nature</p>
+                <p>Price- $20k</p>
+            </div>
+            <div class="trip">
+                <h3>3-Maldives</h3>
+                <p>Known For best beaches</p>
+                <p>Price- $20k</p>
+            </div>
+        </div>
+    
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Discover the World with Us', 'Your journey begins here'],
+            typeSpeed: 60,
+            backSpeed: 30,
+            backDelay: 1000,
+            startDelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+</html>
+
